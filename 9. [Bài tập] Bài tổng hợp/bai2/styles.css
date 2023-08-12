@@ -1,0 +1,33 @@
+/*  */
+.navbar {
+  position: relative;
+  display: inline-block;
+}
+.navbar__icon--open:hover + .navbar__icon--close {
+  left: 0;
+}
+.navbar__icon--open {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+}
+.navbar__icon--close {
+  position: absolute;
+  top: 30px;
+  left: -200px;
+  width: 200px;
+  background-color: rgb(237, 237, 237);
+  transition: all;
+  transition-duration: 2s;
+}
+
+li {
+  list-style: none;
+  padding: 8px 5px;
+}
+i {
+  margin-top: 10px;
+  margin-left: 10px;
+}
